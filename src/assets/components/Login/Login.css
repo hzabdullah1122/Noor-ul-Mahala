@@ -1,0 +1,174 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: #f8fafc;
+}
+
+/* Center Container */
+.container {
+  width: 100%;
+  max-width: 420px;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 40%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  border-top: 5px solid #dc2626;
+}
+
+/* Title & Subtitle */
+.card h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #1f2937;
+}
+
+.subtitle {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6b7280;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: #dc2626;
+  transition: background 0.3s ease;
+  border: 1px solid #fff;
+
+}
+.tab:hover{
+  border: 1px solid #dc2626;
+  background-color: #fff;
+}
+
+.tab.active {
+  background: #dc2626;
+  color: #fff;
+}
+
+/* Input Fields */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input:focus {
+  border-color: #dc2626;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  background: #dc2626;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #b91c1c;
+}
+
+.logout-btn {
+  width: 100%;
+  background: #e5e7eb;
+  color: #111827;
+  font-weight: 500;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #d1d5db;
+}
+
+
+/* Error Notification */
+.notification {
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.notification.error {
+  background: #ffe6e6;
+  color: #b91c1c;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #fca5a5;
+}
+
+/* Cancel Button (Optional) */
+.close-btn {
+  margin-top: 1rem;
+  background: transparent;
+  border: none;
+  color: #6b7280;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .card {
+    padding: 20px;
+  }
+
+  .login-btn {
+    font-size: 14px;
+  }
+
+  .tab {
+    font-size: 13px;
+  }
+}

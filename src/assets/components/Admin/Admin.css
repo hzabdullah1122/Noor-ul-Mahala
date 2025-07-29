@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Outfit;
+  background-color: #f3f4f6;
+  color: #333;
+  width: 100%;
+}
+
+
+
+.sidebar {
+  width: 250px;
+  background-color: #1f2937;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.sidebar nav a {
+  display: block;
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+  background-color: #374151;
+}
+.msgsuccess{
+color: #fff;
+background-color: #2563eb;
+/* margin-left: 40px; */
+margin-top: 50px;
+width: 30%;
+padding: 8px 5px;
+}
+.sidebar .logout {
+  margin-top: 30px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.main-content h1 {
+  margin-bottom: 30px;
+}
+/* .input{
+  width: 40%;
+  border: 1px solid red;
+} */
+
+.tab-content {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.tab-content h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+label input{
+   padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+.card-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+  margin-top: 20px;
+}
+
+.car-card {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.customer-table th,
+.customer-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.customer-table th {
+  background-color: #f1f5f9;
+}
+
+.hidden {
+  display: none;
+}
+.car-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #f3f4f6;
+}
+.delete-btn {
+  margin-top: 0.5rem;
+  background: #ff3b3b;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.delete-btn:hover {
+  background: #e60000;
+}
+.delete-btn-1 {
+  margin-top: 0.5rem;
+  background: #ff3b3b;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 280px;
+}
+.delete-btn-1:hover {
+  background: #e60000;
+}
+
+
+.car-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  color: #888;
+  background-color: #e5e7eb;
+  font-style: italic;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar nav a {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
