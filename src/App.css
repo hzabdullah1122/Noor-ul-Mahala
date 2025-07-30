@@ -258,6 +258,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 60%;
+    height: 180px;
 }
 
 .arrival-inside-img:hover {
@@ -290,6 +291,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 60%;
+    height: 200px;
 }
 
 .arrival-inside-img-3:hover {
@@ -546,7 +548,7 @@ span {
 }
 
 .map-inside-img-4 {
-    background-image: url(../public/images/Flag_of_the_People\'s_Republic_of_China.svg.webp);
+    background-image: url(../public/images/china-flag.webp);
     background-size: 100% 100%;
     border-radius: 200px;
     width: 18%;

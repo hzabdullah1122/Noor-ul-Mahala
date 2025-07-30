@@ -13,7 +13,6 @@ body {
 /* Center Container */
 .container {
   width: 100%;
-  max-width: 420px;
   margin: auto;
   padding: 2rem;
   display: flex;
@@ -26,8 +25,8 @@ body {
 .card {
   background: #fff;
   border-radius: 12px;
-  padding: 50px;
-  /* width: 40%; */
+  padding: 40px;
+  width: 30%;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
   border-top: 5px solid #dc2626;
 }
