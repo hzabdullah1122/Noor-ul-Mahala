@@ -253,7 +253,7 @@ body {
 }
 
 .arrival-inside-img {
-    background-image: url(../public/images/Midnight\ Black\ Metallic-218-26\,28\,33-640-en_US.jpg);
+    background-image: url(../public/images/car-3rd.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -462,7 +462,7 @@ select:focus {
 }
 
 #map {
-    background-image: url(./assets/images/world-map.gif);
+    background-image: url(../public/images/world-map.gif);
     background-size: 100% 100%;
     background-size: cover;
     width: 100%;
@@ -524,7 +524,7 @@ span {
 }
 
 .map-inside-img {
-    background-image: url(./images/Flag-United-Kingdom.webp);
+    background-image: url(../public/images/Flag-United-Kingdom.webp);
     background-size: 100% 100%;
     border-radius: 200px;
     width: 18%;
@@ -532,42 +532,42 @@ span {
 
 
 .map-inside-img-2 {
-    background-image: url(./images/Flag-Thailand.webp);
+    background-image: url(../public/images/Flag-Thailand.webp);
     background-size: 100% 100%;
     border-radius: 220px;
     width: 18%;
 }
 
 .map-inside-img-3 {
-    background-image: url(./images/japan.jpg);
+    background-image: url(../public/images/japan.jpg);
     background-size: 100% 100%;
     border-radius: 250px;
     width: 18%;
 }
 
 .map-inside-img-4 {
-    background-image: url(./images/Flag_of_the_People\'s_Republic_of_China.svg.webp);
+    background-image: url(../public/images/Flag_of_the_People\'s_Republic_of_China.svg.webp);
     background-size: 100% 100%;
     border-radius: 200px;
     width: 18%;
 }
 
 .map-inside-img-5 {
-    background-image: url(./images/Flag-Singapore.webp);
+    background-image: url(../public/images/Flag-Singapore.webp);
     background-size: 100% 100%;
     border-radius: 220px;
     width: 18%;
 }
 
 .map-inside-img-6 {
-    background-image: url(./images/korean-flag.jpg);
+    background-image: url(../public/images/korean-flag.jpg);
     background-size: 100% 100%;
     border-radius: 200px;
     width: 21%;
 }
 
 .map-inside-img-7 {
-    background-image: url(./images/Flag_of_the_United_Arab_Emirates.svg.webp);
+    background-image: url(../public/images/Flag_of_the_United_Arab_Emirates.svg.webp);
     background-size: 100% 100%;
     border-radius: 200px;
     width: 18%;
@@ -660,7 +660,7 @@ span {
 }
 
 .japenese-car {
-    background-image: url(./images/beautiful-japenese-car.jpg);
+    background-image: url(../public/images/beautiful-japenese-car.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
