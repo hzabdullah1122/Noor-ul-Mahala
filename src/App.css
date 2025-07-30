@@ -15,6 +15,7 @@
     background-repeat: no-repeat;
     position: relative;
     top: -80px;
+    height: 800px;
 }
 
 body {
@@ -191,7 +192,7 @@ body {
 
 #header-txt {
     width: 50%;
-    height: 150px;
+    /* height: 150px; */
     margin-left: 120px;
     /* margin-top: 120px; */
     padding-top: 250px;
@@ -252,7 +253,7 @@ body {
 }
 
 .arrival-inside-img {
-    background-image: url(./images/Midnight\ Black\ Metallic-218-26\,28\,33-640-en_US.jpg);
+    background-image: url(../public/images/Midnight\ Black\ Metallic-218-26\,28\,33-640-en_US.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -265,7 +266,7 @@ body {
 }
 
 .arrival-inside-img-2 {
-    background-image: url(./images/Toyota-vitz-japanese.png);
+    background-image: url(../public/images/Toyota-vitz-japanese.png);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -284,7 +285,7 @@ body {
 }
 
 .arrival-inside-img-3 {
-    background-image: url(./images/car-3rd.png);
+    background-image: url(../public/images/car-3rd.png);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -461,7 +462,7 @@ select:focus {
 }
 
 #map {
-    background-image: url(./images/world-map.gif);
+    background-image: url(./assets/images/world-map.gif);
     background-size: 100% 100%;
     background-size: cover;
     width: 100%;
